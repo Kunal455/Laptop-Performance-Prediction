@@ -157,8 +157,6 @@ plt.xlabel("Features")
 plt.ylabel("Features")
 plt.show()
 
-
-
 plt.figure()
 sns.histplot(
     y,
