@@ -62,7 +62,7 @@ knn_pred = knn.predict(X_test_scaled)
 knn_acc = accuracy_score(y_test, knn_pred)
 
 rf = RandomForestClassifier(
-    n_estimators=600,
+    n_estimators=60,
     max_depth=16,
     min_samples_split=4,
     min_samples_leaf=2,
