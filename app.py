@@ -164,7 +164,7 @@ sns.histplot(
     color="teal",
     alpha=0.7,
     edgecolor="black",
-    kde=True            
+    kde=True         
 )
 
 plt.title("Laptop Performance Class Distribution")
